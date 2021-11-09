@@ -55,10 +55,10 @@ internal object CustomChat : Module(
     }
 
     private fun getText() = when (textMode) {
-        TextMode.NAME -> "ᴋᴀᴍɪ ʙʟᴜᴇ"
-        TextMode.ON_TOP -> "ᴋᴀᴍɪ ʙʟᴜᴇ ᴏɴ ᴛᴏᴘ"
-        TextMode.WEBSITE -> "ｋａｍｉｂｌｕｅ．ｏｒｇ"
-        TextMode.JAPANESE -> "上にカミブルー"
+        TextMode.NAME -> "FᵤᵣᵣyWₐᵣₑBlᵤₑ"
+        TextMode.ON_TOP -> "FᵤᵣᵣyWₐᵣₑBlᵤₑ ᴏɴ ᴛᴏᴘ"
+        TextMode.WEBSITE -> "FᵤᵣᵣyWₐᵣₑBlᵤₑ"
+        TextMode.JAPANESE -> "千ㄩ尺尺ㄚ山卂尺乇乃ㄥㄩ乇"
         TextMode.CUSTOM -> customText
     }
 
