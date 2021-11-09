@@ -25,19 +25,19 @@ class KamiMod {
         const val ID = "furrywareblue"
         const val DIRECTORY = "FurryWareBlue/"
 
-        const val VERSION = "B1" // Used for debugging. R.MM.DD-hash format.
-        const val VERSION_SIMPLE = "B1" // Shown to the user. R.MM.DD[-beta] format.
-        const val VERSION_MAJOR = "B1" // Used for update checking. RR.MM.01 format.
+        const val VERSION = "B2" // Used for debugging. R.MM.DD-hash format.
+        const val VERSION_SIMPLE = "B2" // Shown to the user. R.MM.DD[-beta] format.
+        const val VERSION_MAJOR = "B2" // Used for update checking. RR.MM.01 format.
         const val BUILD_NUMBER = -1 // Do not remove, currently unused but will be used in the future.
 
         const val APP_ID = "898215072340533248"
 
         const val DOWNLOADS_API = ""
-        const val CAPES_JSON = "https://google.com"
+        const val CAPES_JSON = "https://github.com/UnixSystemV/FurryWareBlue-Capes/raw/main/capes.json"
         const val GITHUB_LINK = "https://google.com"
         const val WEBSITE_LINK = "https://google.com"
 
-        const val KAMI_KATAKANA = "千ㄩ尺尺ㄚ山卂尺乇乃ㄥㄩ乇"
+        const val KAMI_KATAKANA = "毛皮のような波"
 
         val LOG: Logger = LogManager.getLogger(NAME)
 
